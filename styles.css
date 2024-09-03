@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#button1 {
+    background-color: #FF4D4D;
+}
+
+#button2 {
+    background-color: #4DFF4D;
+}
+
+#button3 {
+    background-color: #4D4DFF;
+}
+
+#button4 {
+    background-color: #FFFF4D;
+}
+
+#button1.active {
+    opacity: 1;
+}
+
+#button2.active {
+    opacity: 1;
+}
+
+#button3.active {
+    opacity: 1;
+}
+
+#button4.active {
+    opacity: 1;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
